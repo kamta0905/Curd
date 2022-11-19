@@ -2,7 +2,6 @@
   "name": "front-end",
   "homepage": "https://kamtaprasad0905.github.io/FrontEnd-ats",
   "version": "0.1.0",
-  "proxy": "https://a626-112-79-203-247.in.ngrok.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
