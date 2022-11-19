@@ -7,18 +7,18 @@ const Header = () => {
   const path = useLocation();
   return (
     <Navbar style={{ zIndex: "999999" }} className="fixed-top" collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand className="ms-3">ATS Services</Navbar.Brand>
+      <Navbar.Brand className="ms-3">CURD Operation</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
           <Link
-            className={path.pathname === "/" ? "nav-link active ms-3" : "ms-3 nav-link"}
+            className={path.pathname === "/Curd/" ? "nav-link active ms-3" : "ms-3 nav-link"}
             to={routes.registerEmployee}
           >
             Add Employee
           </Link>
           <Link
-            className={path.pathname === "/all_employees" ? "nav-link active ms-3" : "ms-3 nav-link"}
+            className={path.pathname === "/Curd/all_employees" ? "nav-link active ms-3" : "ms-3 nav-link"}
             to={routes.allEmployees}
           >
             Employees

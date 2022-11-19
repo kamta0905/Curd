@@ -1,7 +1,7 @@
 import { RouteParams } from "../interfaces/RouteParams";
 
 const routes: RouteParams = {
-  allEmployees: "/all_employees",
-  registerEmployee: "/",
+  allEmployees: "/Curd/all_employees",
+  registerEmployee: "/Curd/",
 };
 export default routes;
