@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://backend-server-ats.herokuapp.com";
+const BASE_URL = "https://fragile-newt-gilet.cyclic.app";
 const get = async (url: string, _config: any = {}) => {
   const config: any = { ..._config };
   return await axios.get(url, { ...config }).then((res: any) => res.data);
